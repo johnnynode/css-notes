@@ -98,3 +98,8 @@ woff字体是Web字体中最佳格式，他是一个开放的TrueType/OpenType�
  * http://www.bootcss.com/p/font-awesome/
  * http://fontawesome.dashgame.com/
  * http://www.iconsvg.com/
+
+
+### CSS3 兼容问题
+
+通过http://caniuse.com/ 可查询CSS3各特性的支持程度，一般兼容性处理的常见方法是为属性添加私有前缀，如不能解决，应避免使用，无需刻意去处理CSS3的兼容性问题。

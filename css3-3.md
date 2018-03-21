@@ -82,10 +82,19 @@ woff字体是Web字体中最佳格式，他是一个开放的TrueType/OpenType�
 - SVG(.svg)格式：
 .svg字体是基于SVG字体渲染的一种格式，支持这种字体的浏览器有Chrome4+、Safari3.1+、Opera10.0+、iOS Mobile Safari3.2+；
 
+- 字体图标的优点：
+
+ * 将所有图标打包成字体库，减少请求
+ * 具有矢量性，可保证清晰度
+ * 使用灵活，便于维护
+
 - 常用字体站：
+ * https://icomoon.io/
  * http://www.zhaozi.cn/
  * http://www.youziku.com/ 
  * http://www.fontawesome.com.cn/
  * http://www.iconfont.cn/
  * http://www.iconpng.com/icon/66900
  * http://www.bootcss.com/p/font-awesome/
+ * http://fontawesome.dashgame.com/
+ * http://www.iconsvg.com/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS 2D转换</title>
+	<style>
+		html, body {
+			height: 100%;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #F7F7F7;
+		}
+
+		.box {
+			width: 200px;
+			height: 200px;
+			margin: 100px auto;
+			position: relative;
+			/*background-color: blue;*/
+		}
+
+/*		.box::after {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 200%;
+			height: 200%;
+			border: 1px solid red;
+			box-sizing: border-box;
+			transform: scale(0.5) translate(-50%, -50%);
+			background-color: transparent;
+		}*/
+
+		.box:after {
+			content: '';
+			width: 1px;
+			height: 200%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: red;
+			box-sizing: border-box;
+			transform: scale(0.5) translate(0, -50%);
+		}
+
+		.inner {
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			border: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="inner"></div>
+	</div>
+</body>
+</html>

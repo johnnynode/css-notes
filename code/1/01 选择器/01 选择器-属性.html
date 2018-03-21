@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选择器 - 属性</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: '微软雅黑';
+			background-color: #F7F7F7;
+		}
+
+		a {
+			color: #333;
+			font-size: 24px;
+			text-decoration: none;
+		}
+
+		li {
+			line-height: 40px;
+		}
+
+		/**
+		 * 我们先要了解属性选择器的语法
+		 * E:[attr];
+		 * E:[attr=val];
+		 * E:[attr^=val];
+		 * E:[attr$=val];
+		 * E:[attr*=val];
+		 */
+		
+		/*a[href] {
+			color: red;
+		}*/
+
+		/*a[href="b.txt"] {
+			color: red;
+		}*/
+
+/*		a[href^=a] {
+			color: red;
+		}*/
+		
+		/*a[href$=mp3] {
+			color: red;
+		}*/
+
+		/*a[href*=m] {
+			color: red;
+		}*/
+
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="a.txt">a.txt是一个文本文件</a>
+		</li>
+		<li>
+			<a href="b.txt">b.txt是一个文本文件</a>
+		</li>
+		<li>
+			<a href="a.mp3">a.mp3一个音频文件</a>
+		</li>
+		<li>
+			<a href="b.mp3">b.mp3一个音频文件</a>
+		</li>
+		<li>
+			<a href="a.rmvb">a.rmvb是一个视频文件</a>
+		</li>
+		<li>
+			<a href="b.rmvb">b.rmvb是一个视频文件</a>
+		</li>
+	</ul>
+</body>
+</html>

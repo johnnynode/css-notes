@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS 颜色</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #F7F7F7;
+		}
+
+		.opacity {
+			width: 200px;
+			height: 200px;
+			margin: 100px auto;
+			background-color: yellow;
+		}
+
+		.inner {
+			width: 100px;
+			height: 100px;
+			border: 1px solid red;
+			background-color: transparent;
+		}
+
+		/**
+		 * 不可调节透明度，始终完全透明
+		 */
+	</style>
+</head>
+<body>
+	<div class="opacity">
+		<div class="inner">
+			子盒子背景色完全透明
+		</div>
+	</div>
+</body>
+</html>

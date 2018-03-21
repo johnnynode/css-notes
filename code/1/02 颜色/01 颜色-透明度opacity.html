@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS 颜色</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #F7F7F7;
+		}
+
+		.opacity {
+			width: 200px;
+			height: 200px;
+			margin: 100px auto;
+			background-color: yellow;
+			opacity: 0.3;
+		}
+
+		.inner {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+		}
+
+		/**
+		 * 1、只能针对整个盒子设置透明度
+		 * 2、子盒子及内容会继承父盒子的透明度
+		 */
+	</style>
+</head>
+<body>
+	<div class="opacity">
+		<div class="inner">
+			子盒子继承了父盒子的透明
+		</div>
+	</div>
+</body>
+</html>

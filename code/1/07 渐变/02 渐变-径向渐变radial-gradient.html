@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3 渐变</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #F7F7F7;
+		}
+
+		.radial {
+			width: 600px;
+			height: 300px;
+			margin: 100px auto;
+			/*background-image: radial-gradient(120px 100px at left top, yellow, green);*/
+
+			/*background-image: radial-gradient(120px 180px at center, yellow, green);*/
+
+			/*background-image: radial-gradient(120px at right top, yellow, green);*/
+
+			background-image: radial-gradient(120px at 300px 150px , yellow, green);
+		}
+
+		.ball {
+			width: 400px;
+			height: 400px;
+			margin: 100px auto;
+			border-radius: 200px;
+			background-color: blue;
+			background-image: radial-gradient(200px at 160px 160px, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+		}
+	</style>
+</head>
+<body>
+	<div class="radial"></div>
+
+	<div class="ball"></div>
+</body>
+</html>

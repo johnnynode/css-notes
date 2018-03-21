@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS 颜色</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #F7F7F7;
+		}
+
+		.opacity {
+			width: 200px;
+			height: 200px;
+			margin: 100px auto;
+			background-color: yellow;
+		}
+
+		.inner {
+			width: 100px;
+			height: 100px;
+			font-weight: bold;
+			border: 1px solid red;
+			color: hsla(120, 100%, 25%, 0.3);
+			border: 10px solid hsla(120, 100%, 25%, 0.3);
+			background-color: hsla(120, 100%, 25%, 0.3);
+		}
+
+		/**
+		 * 通过hsla我们可以对颜色的透明度进行控制
+		 */
+
+	</style>
+</head>
+<body>
+	<div class="opacity">
+		<div class="inner">
+			通过hsla我们可以对颜色的透明度进行控制
+		</div>
+	</div>
+</body>
+</html>

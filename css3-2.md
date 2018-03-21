@@ -38,13 +38,13 @@
 - 3D坐标轴：用X、Y、Z分别表示空间的3个维度，三条轴互相垂直
 
 <div align=center>
-  <img src="./pics/2-1.jpg"/>
+  <img src="./pics/2-1.jpg" width=300/>
 </div>
 
 - 左手坐标系：伸出左手，让拇指和食指成“L”形，大拇指向右，食指向上，中指指向前方。这样我们就建立了一个左手坐标系，拇指、食指和中指分别代表X、Y、Z轴的正方向
 
 <div align=center>
-  <img src="./pics/2-2.jpg"/>
+  <img src="./pics/2-2.jpg" width=300/>
 </div>
 
 - 左手法则：左手握住旋转轴，竖起拇指指向旋转轴正方向，正向就是其余手指卷曲的方向
